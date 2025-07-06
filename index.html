@@ -141,6 +141,36 @@
         opacity: 0;
       }
     }
+
+    @media (max-width: 768px) {
+  .photo-group {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .photo-overlap {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 16px;
+    filter: none;
+  }
+
+  .text-section {
+    font-size: 1.1em;
+    padding: 0 10px;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  iframe.youtube {
+    height: 180px;
+    border-radius: 16px;
+  }
+}
+
   </style>
 </head>
 <body>
